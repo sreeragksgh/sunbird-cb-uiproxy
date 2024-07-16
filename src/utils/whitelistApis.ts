@@ -3569,12 +3569,12 @@ export const API_LIST = {
                    ],
         },
         '/proxies/v8/user/v1/email/approvedDomains': {
-                   checksNeeded: [CHECK.ROLE],
-                   // tslint:disable-next-line: object-literal-sort-keys
-                    ROLE_CHECK: [
+                  checksNeeded: [CHECK.ROLE],
+                  // tslint:disable-next-line: object-literal-sort-keys
+                   ROLE_CHECK: [
                         ROLE.PUBLIC,
-                    ],
-                },
+                   ],
+        },
     },
     URL_PATTERN:
         [
